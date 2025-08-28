@@ -2,7 +2,7 @@ invertory = []
 
 def start_screen():
     while True:
-        user_input = (input("Ты стоишь темной зловещей пещерой? Войти в нее? ")).lower()
+        user_input = (input("Ты стоишь перед темной зловещей пещерой? Войти в нее? ")).lower()
         if user_input == "да":
             cave()
             return
